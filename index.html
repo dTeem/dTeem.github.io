@@ -9,7 +9,11 @@
 
             <!-- UNICONS -->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        <link rel="stylesheet" type="text/css" href="./styles.css">
+
+        <link rel="stylesheet" type="text/css" href="./styles-main.css">
+
+        <!-- SWIPPER CSS -->
+        <link rel="stylesheet" type="text/css" href="./assests/swiper-bundle.min.css">
 
         <title>Practice ka lang</title>
 </head>       
@@ -310,7 +314,7 @@
         <!------------------ SKILLS 1 ------------------->
         <section class="skills section" id="skills">
             <h2 class="section_title">Skills</h2>
-            <span class="section_subtitle">My Tehnical level</span>
+            <span class="section_subtitle skills-sub">My Tehnical level</span>
             <p class="skills_desc">I'm always eager to develop and learn new skills regularly, I find myself exploring out new things even when I have a different career that doesn't involve web development. I still keep myself up to date on what to add on my skills and help improve my career growth.</p>
             <div class="skills_container container grid">
                 <div>
@@ -605,12 +609,120 @@
                 </div>
             </div>
         </section>
-<!--======================= PROJECTS ==========================-->  
+<!--======================= PORTFOLIO ==========================-->  
         <section class="projects section" id="projects">
             <h2 class="section_title proj_t">Portfolio</h2>
-            <span class="section_subtitle proj_s">Responsive websites and interactive UI animations</span>
+            <span class="section_subtitle proj_s">Most Recent work</span>
 
+            <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--========== PORTFOLIO 1 ================-->  
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="./images/desgins-thumbnail.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">WEBSITES</h3>
+                            <p class="portfolio_desc">Fully responsive websites to all devices, with interactive Ui components.</p>
+                            <div><a href="./designs.html" class="card-view">View</a></div>
+                        </div>
+                    </div>
+
+                    <!--========== PORTFOLIO 2 ================-->  
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="./images/desgins-thumbnail.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">DESIGNS</h3>
+                            <p class="portfolio_desc">Fully responsive websites to all devices, with interactive Ui components.</p>
+                            <div><a href="./designs.html" class="card-view">View</a></div>
+                        </div>
+                    </div>
+
+                    <!--========== PORTFOLIO 3 ================-->  
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="./images/desgins-thumbnail.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">MOBILE APPS</h3>
+                            <p class="portfolio_desc">Fully responsive websites to all devices, with interactive Ui components.</p>
+                            <div><a href="./designs.html" class="card-view">View</a></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    Slide 1
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="./images/desgins-thumbnail.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">WEBSITES</h3>
+                            <p class="portfolio_desc">Fully responsive websites to all devices, with interactive Ui components.</p>
+                            <div><a href="./designs.html" class="card-view">View</a></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
             
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+                    <!-- If we need pagination -->
+
+            <!-- <div class="project_card-container">
+                <div class="project-card">
+                    <div class="card-bg"> 
+                        <div class="card_content">
+                            <div class="image_shadow">
+                                <img class="image-frame web-thumb" alt="object-fit: cover" src="./images/desgins-thumbnail.png"/>
+                            </div>
+                            <div class="shade"></div>
+                            <div><a href="./designs.html" class="card-view">View</a></div>
+                            
+                            <div class="card-content_container">
+                                <h3 class="web-card-title">WEBSITES</h3>
+                                <span class="web_card-content">Fully responsive websites to all devices, with interactive Ui components.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-bg"> 
+                        <div class="card_content">
+                            <div class="image-card_container">
+                                <div class="image_shadow">
+                                    <img class="image-frame web-thumb" alt="object-fit: cover" src="./images/desgins-thumbnail.png"/>
+                                </div>
+                            </div>
+                            <div class="shade"></div>
+                            <div><a href="./designs.html" class="card-view">View</a></div>
+                            
+                            <div class="card-content_container">
+                                <h3 class="web-card-title">DESIGNS</h3>
+                                <span class="web_card-content">Fully responsive websites to all devices, with interactive Ui components.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </section>
 <!--======================= CONTACT ME ==========================-->  
         <!-- <section class="contact section" id="contact">
@@ -713,6 +825,10 @@
 </a>
 
     </main>
+    
+    <!-- SWIPER JS -->
+    <script src="./assests/swiper-bundle.min.js"></script>
+
     <script src="./sp-main.js"></script>
 </body>
 </html>
