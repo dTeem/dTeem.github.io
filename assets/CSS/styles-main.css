@@ -1458,6 +1458,10 @@ color: var(--accent-2);
         width: 200px;
     }
 
+    .swiper {
+        width: 280px;
+    }
+
     .contact.section {
         margin: 5rem 1rem;
         padding: 0;
