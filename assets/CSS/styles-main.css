@@ -1820,7 +1820,7 @@ color: var(--accent-2);
     }
 
     .contact_form {
-        max-width: 500px;
+        width: 500px;
     }
 
     .footer_container {
