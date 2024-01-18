@@ -1400,7 +1400,7 @@ color: var(--accent-2);
 
 /* ///////////////////////// == MEDIA QUERIES == /////////////////////// */
 /* ================ FOR SMALL DEVICES ================ */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
 
     .navbar .navbar_item {
         margin-bottom: 0.7rem;
