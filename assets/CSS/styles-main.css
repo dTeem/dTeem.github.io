@@ -1499,7 +1499,7 @@ color: var(--accent-2);
 
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 400px) {
     .section {
         padding: 5rem 0;
     }
