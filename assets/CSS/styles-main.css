@@ -1561,7 +1561,7 @@ color: var(--accent-2);
     }
 
 }
-/* @media screen and (min-width: 766px) {
+@media screen and (min-width: 766px) {
     .container {
         margin-left: auto;
         margin-right: auto;
@@ -1744,7 +1744,7 @@ color: var(--accent-2);
         justify-content: end;
         padding-right: 5rem;
     }
-} */
+} 
 
 @media only screen and (min-width: 1024px) {
     * {
