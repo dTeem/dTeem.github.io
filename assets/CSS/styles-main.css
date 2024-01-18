@@ -1463,6 +1463,40 @@ color: var(--accent-2);
         width: 200px;
     }
 
+    .contact.section {
+        margin: 5rem 1rem;
+        padding: 0;
+    }
+    
+    .contact_container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .contact_text1 {
+        font-size: 2.2rem;
+        line-height: 30px;
+    }
+
+    .contact_text2 {
+        font-size: 3rem;
+        line-height: 45px;
+        transform: translateY(5px);
+    }
+
+    .contact_info-container {
+        align-items: start;
+    }
+    
+    .contact_information {
+        margin-top: 0.5rem;
+    }
+    .contact_content {
+        padding: 0;
+    }
+
+
     .footer_container {
         display: flex;
         flex-direction: column-reverse;
