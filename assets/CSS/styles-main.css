@@ -1806,6 +1806,13 @@ color: var(--accent-2);
         height: 480px;
     }
 
+    .contact_container {
+        display: grid;
+        row-gap: 3rem;
+        grid-template-columns: 1fr 0.2fr;
+        padding: 5rem 2rem;
+    }
+
     .footer_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
