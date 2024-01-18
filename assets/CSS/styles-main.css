@@ -1819,6 +1819,10 @@ color: var(--accent-2);
         padding: 5rem 2rem;
     }
 
+    .contact_inputs {
+        max-width: 500px;
+    }
+
     .footer_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
