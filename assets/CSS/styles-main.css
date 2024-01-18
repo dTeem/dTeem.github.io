@@ -1490,6 +1490,11 @@ color: var(--accent-2);
     .services_content {
         max-width: 250px;
     }
+
+    .contact_container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     
     .contact_information {
         margin-top: 0.5rem;
@@ -1628,10 +1633,6 @@ color: var(--accent-2);
         height: 400px;
     }
 
-    .contact_container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
     .footer_container {
         display: flex;
         flex-direction: column-reverse;
