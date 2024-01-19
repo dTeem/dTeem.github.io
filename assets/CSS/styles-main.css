@@ -1504,6 +1504,21 @@ color: var(--accent-2);
 }
 
 @media screen and (min-width: 400px) {
+    .navbar .navbar_item {
+        margin-bottom: 0.7rem;
+        margin-right: 0.5rem;
+        font-size: 1rem;
+    }
+
+    #toggle {
+        margin-right: .3rem;
+    }
+    #toggle:checked ~ .menu-bg {
+        transform: translate(60%, 25%);
+        width: 400px;
+        height: 400px;
+    }
+
     .skills-data-content {
         display: flex;
         flex-direction: column;
