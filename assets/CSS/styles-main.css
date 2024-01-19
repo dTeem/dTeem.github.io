@@ -1074,10 +1074,10 @@ color: var(--text-1);
     border: 3px solid #16161a;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 395px) {
 
     .portfolio_img {
-        width: 200px;
+        width: 70vw;
     }
 
     .portfolio_data {
@@ -1099,14 +1099,14 @@ color: var(--text-1);
     }
 
     .swiper {
-        width: 250px;
-        height: 200px;
+        width: 90vw;
+        height: 32vh;
     }
 }
 
 @media screen and (min-width: 400px) {
     .portfolio_img {
-        width: 300px;
+        width: 70vw;
     }
 
     .portfolio_data {
@@ -1128,7 +1128,7 @@ color: var(--text-1);
     }
 
     .swiper {
-        width: 370px;
+        width: 50vw;
         height: 280px;
     }
 }
@@ -1458,9 +1458,9 @@ color: var(--accent-2);
         width: 200px;
     }
 
-    .swiper {
+    /* .swiper {
         width: 280px;
-    }
+    } */
 
     .contact.section {
         margin: 5rem 1rem;
