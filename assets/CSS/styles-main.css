@@ -1104,7 +1104,7 @@ color: var(--text-1);
     }
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 400px) {
     .portfolio_img {
         width: 300px;
     }
@@ -1128,7 +1128,7 @@ color: var(--text-1);
     }
 
     .swiper {
-        width: 360px;
+        width: 370px;
         height: 280px;
     }
 }
@@ -1534,7 +1534,7 @@ color: var(--accent-2);
     }
 
     .swiper {
-        width: 390px;
+        width: 370px;
     }
 
     .contact.section {
