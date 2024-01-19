@@ -1100,7 +1100,7 @@ color: var(--text-1);
 
     .swiper {
         width: 90vw;
-        height: 260px;
+        height: clamp(220px, 240px, 350px);
     }
 }
 
