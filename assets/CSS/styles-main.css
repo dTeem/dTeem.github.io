@@ -1502,11 +1502,16 @@ color: var(--accent-2);
         margin: 5rem 1rem;
         padding: 0;
     }
+
+    .contact_inputs {
+        padding: 0;
+    }
     
     .contact_container {
         display: flex;
         flex-direction: column-reverse;
         margin: 0;
+        padding: 5rem 1rem;
     }
 
     .contact_text1 {
@@ -1515,9 +1520,14 @@ color: var(--accent-2);
     }
 
     .contact_text2 {
-        font-size: 3rem;
+        font-size: 2rem;
+        max-width: 120px;
         line-height: 45px;
-        transform: translateY(5px);
+        transform: translateY(2rem);
+    }
+
+    .send_btn-container {
+        transform: translateX(-2rem);
     }
 
     .contact_info-container {
@@ -1631,6 +1641,13 @@ color: var(--accent-2);
     }
     .contact_content {
         padding: 0;
+    }
+
+    .contact_text2 {
+        font-size: 3rem;
+        max-width: 320px;
+        line-height: 45px;
+        transform: translateY(2rem);
     }
 
     .footer_container {
