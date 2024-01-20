@@ -1,3 +1,5 @@
+
+
 :root {
     --primary-bg: #fffffe;
     --secondary-bg: #eff0f3;
@@ -311,6 +313,10 @@ a {
     color: var(--accent-1);
 }
 
+.home_img {
+    z-index: 3;
+}
+
 .home_blob {
     width: 100%;
     fill: var(--accent-1);
@@ -520,12 +526,12 @@ a {
 }
 
 .background_line {
-display: block;
-width: 1px;
-height: 110%;
-background-color: var(--accent-1);
-transform: translate(6px, -7px);
-z-index: 0;
+    display: block;
+    width: 1px;
+    height: 110%;
+    background-color: var(--accent-1);
+    transform: translate(6px, -7px);
+    z-index: 0;
 }
 
 .skills.section {
@@ -1212,6 +1218,10 @@ border: none;
 outline: none;
 padding: 1rem 1rem 1rem 1rem;
 margin-top: 0.5rem;
+}
+
+.send-it_btn {
+    display: flex;
 }
 
 .contact_btn-container {
@@ -1984,7 +1994,7 @@ color: var(--accent-2);
     }
     
     .ft2 {
-        font-size: 4rem;
+        font-size: 3.8rem;
         font-weight: 800;
         line-height: 50px;
         max-width: 400px;
@@ -2050,10 +2060,10 @@ color: var(--accent-2);
         max-width: 400px;
         margin: 0;
     }
-/* 
-    .footer_content {
-        display: block;
-    } */
+
+    .footer-btn {
+        right: -9rem;
+    }
 
     .ft1 {
         font-size: 1.7rem;
@@ -2061,7 +2071,7 @@ color: var(--accent-2);
     }
     
     .ft2 {
-        font-size: 3.8rem;
+        font-size: 4rem;
         font-weight: 800;
         line-height: 50px;
     }

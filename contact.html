@@ -11,6 +11,12 @@
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/CSS/animate.css">
 
+    <!-- SWIPPER CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/CSS/swiper-bundle.min.css">
+
+    <!-- ANIMATE SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Contact</title>
 </head>
 <body>
@@ -71,7 +77,7 @@
                         <a href="./index.html#portfolio" class="navbar_link">
                             <i class="nav-projects"></i>
                             <span>
-                                Projects
+                                Portfolio
                             </span>
                         </a>
                     </li>
@@ -93,11 +99,8 @@
         <div class="contact_content">
             <div class="contact_data">
                 <h2 class="contact_text1">
-                    Tell me about your next project and
+                    Tell me about your next project
                 </h2>
-                <h1 class="contact_text2">
-                    WE'LL DO IT TOGETHER!
-                </h1>
             </div>
 
             <div class="contact_list">
@@ -122,11 +125,16 @@
                             <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
                         </div>
 
-                        <div class="contact_btn">
-                            <a href="#" class="button button-flex">
-                                Send it!
-                                <i class="uil uil-message button_icon"></i>
-                            </a>
+                        <div class="send-it_btn">
+                            <h1 class="contact_text2">
+                                WE'LL DO IT TOGETHER!
+                            </h1>
+                            <div class="contact_btn">
+                                <a href="./contact.html" class="contact_btn-container">
+                                    <span class="btn_fill"><span class="btn_txt">Send it!</span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </form>
                     <div class="contact_info-container">
@@ -240,6 +248,15 @@
     </div> 
     </footer>
 
-    <script src="./sp-main.js"></script>
+    <!-- ANIMATE SCROLL JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- SWIPER JS -->
+    <script src="./assets/JS/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="./assets/JS/sp-main.js"></script>
 </body>
 </html>

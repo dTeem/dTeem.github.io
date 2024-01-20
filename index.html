@@ -18,6 +18,9 @@
         <!-- SWIPPER CSS -->
         <link rel="stylesheet" type="text/css" href="./assets/CSS/swiper-bundle.min.css">
 
+        <!-- ANIMATE SCROLL -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <title>Timothy Kabiling</title>
 </head>       
 <body>
@@ -79,7 +82,7 @@
                         <a href="#portfolio" class="navbar_link">
                             <i class="nav-portfolio"></i>
                             <span>
-                                portfolio
+                                Portfolio
                             </span>
                         </a>
                     </li>
@@ -101,7 +104,7 @@
         <section class="home section" id="home">
             <div class="home_container container grid">
                 <div class="home_content grid">
-                    <div class="home_social">
+                    <div class="home_social animate__animated animate__zoomIn">
                         <a href="https://www.linkedin.com/in/timothy-kabiling-8062b0169/" target="_blank" class="social-icon">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
@@ -113,7 +116,7 @@
                         </a>
                     </div>
 
-                    <div class="home_img">
+                    <div class="home_img animate__animated animate__zoomIn">
                         <svg class="home_blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0" mask-type="alpha">
                                 <path d="M49.4,-58.3C65.9,-45.2,82.2,-31.3,79.9,-17.9C77.7,-4.6,57,8.2,44.8,22.6C32.6,37,28.9,53.1,19.8,58C10.7,62.9,-3.8,56.6,-14.7,48.9C-25.7,41.3,-33,32.3,-46.3,21.1C-59.5,9.8,-78.5,-3.7,-81.6,-19.3C-84.7,-34.9,-71.9,-52.7,-55.6,-65.8C-39.4,-79,-19.7,-87.7,-1.6,-85.8C16.5,-83.9,33,-71.5,49.4,-58.3Z" transform="translate(100 100)" />
@@ -127,14 +130,14 @@
                     </div>
 
                     <div class="home_data">
-                        <h1 class="home_title">Hi, I am Tim</h1>
-                        <h3 class="home_subtitle">Web Developer / Graphics Designer</h3>
-                        <p class="home_desc">High level experience in web designing and development knowledge, producing quality work.</p>
-                        <a href="./contact.html" class="button button-flex">
+                        <h1 class="home_title animate__animated animate__fadeInDown">Hi, I am Tim</h1>
+                        <h3 class="home_subtitle animate__animated animate__fadeInRight">Web Developer / Graphics Designer</h3>
+                        <p class="home_desc animate__animated animate__fadeInRight">High level experience in web designing and development knowledge, producing quality work.</p>
+                        <a href="./contact.html" class="button button-flex animate__animated animate__fadeInDown">
                             Contact Me<i class="uil uil-message button_icon"></i>
                         </a>
                         <div class="home_scroll">
-                            <a href="#about" class="home_scroll-btn button-flex">
+                            <a href="#about" class="home_scroll-btn button-flex animate__animated animate__fadeInDown">
                                 <i class="uil uil-mouse-alt home_scroll-mouse"></i>
                                 <span class="home_scroll-name">Scroll down</span>
                                 <i class="uil uil-arrow-down home_scroll-arrow"></i>
@@ -147,12 +150,15 @@
 
     <!--======================= ABOUT ==========================-->  
         <section class="about section" id="about" name="about">
-            <h2 class="section_title">About Me</h2>
-            <span class="section_subtitle abt-sub">My Introduction</span>
+            <div data-aos="fade-down"
+            data-aos-offset="500">
+                <h2 class="section_title">About Me</h2>
+                <span class="section_subtitle abt-sub">My Introduction</span>
+            </div>
             <div class="about_container container grid">
-                <img src="./images/tim-aboutme.jpeg" alt="" class="about_img">
+                <img src="./images/tim-aboutme.jpeg" data-aos="fade-right" data-aos-offset="500" class="about_img">
 
-                <div class="about_data">
+                <div class="about_data" data-aos="fade-left" data-aos-offset="500">
                     <p class="about_desc">I'm a web developer and graphic designer who creates visually appealing and user-friendly websites, as well as designs eye-catching graphics. I specialize in delivering high-quality results that meet the unique needs of each client.</p>
 
                     <div class="about_info">
@@ -178,7 +184,9 @@
             <!-- <h2 class="section_title">Background</h2> -->
             <div class="background_container container">
                 <div class="background_tabs">
-                    <div class="background_btn btn-flex">
+                    <div class="background_btn btn-flex" data-aos="fade-up"
+                    data-aos-offset="500"
+                    data-aos-easing="ease-in-sine">
                         <i class="uil uil-graduation-cap background_icon"></i>
                         Education & Work
                         <i class="uil uil-briefcase-alt background_icon"></i>
@@ -191,7 +199,9 @@
                     <div class="background_content">
                         <!-------- BACKGROUND 1 ------->
                         <div class="background_data">
-                            <div>
+                            <div data-aos="fade-right"
+                            data-aos-offset="550"
+                            data-aos-easing="ease-in-sine">
                                 <h3 class="background_title left">B.S. in Information Technology</h3>
                                 <span class="background_subtitle left">AMA University</span>
                                 <div class="background_calendar left">
@@ -199,7 +209,9 @@
                                     2009 - 2012
                                 </div>
                             </div>
-                            <div>
+                            <div data-aos="flip-right"
+                            data-aos-delay="100"
+                            data-aos-anchor-placement="top-center">
                                 <span class="background_rounder"></span>
                                 <span class="background_line"></span>
                             </div>
@@ -211,12 +223,15 @@
                         <!-------- BACKGROUND 1 ------->
                         <div class="background_data">
                             <div></div>
-                            <div>
+                            <div data-aos="flip-left"
+                            data-aos-offset="500">
                                 <span class="background_rounder"></span>
                                 <span class="background_line"></span>
                             </div>
 
-                            <div>
+                            <div data-aos="fade-left"
+                            data-aos-offset="500"
+                            data-aos-easing="ease-in-sine">
                                 <h3 class="background_title">Graphics Designer</h3>
                                 <span class="background_subtitle">Jesus Christ To God Be The Glory Church</span>
                                 <div class="background_calendar">
@@ -227,7 +242,9 @@
                         </div>
                         <!-------- BACKGROUND 2 ------->
                         <div class="background_data">
-                            <div>
+                            <div data-aos="fade-right"
+                            data-aos-offset="500"
+                            data-aos-easing="ease-in-sine">
                                 <h3 class="background_title left">Technical Support Specialist</h3>
                                 <span class="background_subtitle left">Convergys (Tesltra)</span>
                                 <div class="background_calendar left">
@@ -235,7 +252,8 @@
                                     2014 - 2016 
                                 </div>
                             </div>
-                            <div>
+                            <div data-aos="flip-right"
+                            data-aos-offset="500">
                                 <span class="background_rounder"></span>
                                 <span class="background_line"></span>
                             </div>
@@ -243,11 +261,14 @@
                         <!-------- BACKGROUND 3 ------->
                         <div class="background_data">
                             <div></div>
-                            <div>
+                            <div data-aos="flip-left"
+                            data-aos-offset="500">
                                 <span class="background_rounder"></span>
                                 <span class="background_line"></span>
                             </div>
-                            <div>
+                            <div data-aos="fade-left"
+                            data-aos-offset="510"
+                            data-aos-easing="ease-in-sine">
                                 <h3 class="background_title">Illustrator / Project Associate</h3>
                                 <span class="background_subtitle">SEAMEO INNOTECH</span>
                                 <div class="background_calendar">
@@ -258,7 +279,9 @@
                         </div>
                         <!-------- BACKGROUND 4 ------->
                         <div class="background_data">
-                            <div>
+                            <div data-aos="fade-right"
+                            data-aos-offset="500"
+                            data-aos-easing="ease-in-sine">
                                 <h3 class="background_title left">Web Developer</h3>
                                 <span class="background_subtitle left">Beacon Command</span>
                                 <div class="background_calendar left">
@@ -266,7 +289,8 @@
                                     FEBRUARY - DECEMBER 2018 
                                 </div>
                             </div>
-                            <div>
+                            <div data-aos="flip-right"
+                            data-aos-offset="500">
                                 <span class="background_rounder"></span>
                                 <span class="background_line"></span>
                             </div>
@@ -274,12 +298,16 @@
                         <!-------- BACKGROUND 5 ------->
                         <div class="background_data">
                             <div></div>
-                            <div>
+                            <div data-aos="flip-left"
+                            data-aos-offset="500"
+                            data-aos-easing="ease-in-sine">
                                 <span class="background_rounder"></span>
                                 <span class="background_line"></span>
                             </div>
 
-                            <div>
+                            <div data-aos="fade-left"
+                            data-aos-offset="500"
+                            data-aos-easing="ease-in-sine">
                                 <h3 class="background_title">Customer Service Technician</h3>
                                 <span class="background_subtitle">PLDT Inc.</span>
                                 <div class="background_calendar">
@@ -290,7 +318,9 @@
                         </div>
                         <!-------- BACKGROUND 6 ------->
                         <div class="background_data">
-                            <div>
+                            <div data-aos="fade-right"
+                            data-aos-offset="520"
+                            data-aos-easing="ease-in-sine">
                                 <h3 class="background_title left">Materials Inventory Associate II</h3>
                                 <span class="background_subtitle left">PLDT Inc.</span>
                                 <div class="background_calendar left">
@@ -298,13 +328,14 @@
                                     2020 - 2023 
                                 </div>
                             </div>
-                            <div>
+                            <div data-aos="flip-right"
+                            data-aos-offset="500"
+                            data-aos-easing="ease-in-sine">
                                 <span class="background_rounder"></span>
-                                <!-- <span class="background_line"></span> -->
                             </div>
                         </div>
                     </div>
-                    <div class="about_btn">
+                    <div class="about_btn" data-aos="zoom-in" data-aos-offset="500">
                         <a download="" href="images/Timothy Kabiling - Resume.pdf" class="button button-flex">
                             Download CV<i class="uil uil-download-alt button_icon"></i>
                         </a>
@@ -316,12 +347,17 @@
 <!--======================= SKILLS ==========================-->  
         <!------------------ SKILLS 1 ------------------->
         <section class="skills section" id="skills">
-            <h2 class="section_title">Skills</h2>
-            <span class="section_subtitle skills-sub">My Tehnical level</span>
+            <div data-aos="fade-down" data-aos-offset="500">
+                <h2 class="section_title">Skills</h2>
+                <span class="section_subtitle skills-sub">My Tehnical level</span>
+            </div>
 
             <div class="skills-data-content">
-                <p class="skills_desc">I'm always eager to develop and learn new skills regularly, I find myself exploring out new things even when I have a different career that doesn't involve web development. I still keep myself up to date on what to add on my skills and help improve my career growth.</p>
-                <div class="skills_container container grid">
+                <div data-aos="zoom-out" data-aos-offset="500">
+                    <p class="skills_desc">I'm always eager to develop and learn new skills regularly, I find myself exploring out new things even when I have a different career that doesn't involve web development. I still keep myself up to date on what to add on my skills and help improve my career growth.</p>
+                </div>
+
+                <div class="skills_container container grid" data-aos="fade-down" data-aos-offset="500">
                     <div>
                         <div class="skills_content skills_close">
                             <div class="skills_header">
@@ -498,12 +534,14 @@
 
 <!--======================= SERVICES ==========================-->    
         <section class="services section" id="services">
-            <h2 class="section_title">Services</h2>
-            <span class="section_subtitle">What I Offer</span>
+            <div data-aos="fade-down" data-aos-offset="500">
+                <h2 class="section_title">Services</h2>
+                <span class="section_subtitle">What I Offer</span>
+            </div>
 
             <div class="services_container container grid">
        <!------------------ SERVICES 1 ------------------->  
-                <div class="services_content">
+                <div class="services_content" data-aos="fade-right" data-aos-offset="600">
                     <div>
                         <i class="uil uil-browser services_icon"></i>
                         <h3 class="services_title">Ui/Ux <br> Designer</h3>
@@ -540,7 +578,7 @@
                     </div>
                 </div>
         <!-- ---------------- SERVICES 2 ----------------- -->
-                <div class="services_content">
+                <div class="services_content" data-aos="fade-up" data-aos-offset="700">
                     <div>
                         <i class="uil uil-arrow services_icon"></i>
                         <h3 class="services_title">Frontend <br> Developer</h3>
@@ -577,7 +615,7 @@
                     </div>
                 </div>
         <!------------------ SERVICES 3 ------------------->  
-                <div class="services_content">
+                <div class="services_content" data-aos="fade-left" data-aos-offset="750">
                     <div>
                         <i class="uil uil-icons services_icon"></i>
                         <h3 class="services_title">Branding <br> Designer</h3>
@@ -617,11 +655,12 @@
         </section>
 <!--======================= PORTFOLIO ==========================-->  
         <section class="portfolio section" id="portfolio">
-            <h2 class="section_title proj_t">Portfolio</h2>
-            <span class="section_subtitle proj_s">Most Recent work</span>
-
+            <div data-aos="fade-down" data-aos-offset="500">
+                <h2 class="section_title proj_t">Portfolio</h2>
+                <span class="section_subtitle proj_s">Most Recent work</span>
+            </div>
             <!-- Slider main container -->
-            <div class="swiper">
+            <div class="swiper" data-aos="zoom-in" data-aos-offset="500">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -697,71 +736,13 @@
                 <div class="swiper-button-next">
                     <i class="uil uil-angle-right-b swiper-arrow-icon"></i>
                 </div>
-        
-                    <!-- If we need pagination -->
-
-            <!-- <div class="project_card-container">
-                <div class="project-card">
-                    <div class="card-bg"> 
-                        <div class="card_content">
-                            <div class="image_shadow">
-                                <img class="image-frame web-thumb" alt="object-fit: cover" src="./images/desgins-thumbnail.png"/>
-                            </div>
-                            <div class="shade"></div>
-                            <div><a href="./designs.html" class="card-view">View</a></div>
-                            
-                            <div class="card-content_container">
-                                <h3 class="web-card-title">WEBSITES</h3>
-                                <span class="web_card-content">Fully responsive websites to all devices, with interactive Ui components.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="card-bg"> 
-                        <div class="card_content">
-                            <div class="image-card_container">
-                                <div class="image_shadow">
-                                    <img class="image-frame web-thumb" alt="object-fit: cover" src="./images/desgins-thumbnail.png"/>
-                                </div>
-                            </div>
-                            <div class="shade"></div>
-                            <div><a href="./designs.html" class="card-view">View</a></div>
-                            
-                            <div class="card-content_container">
-                                <h3 class="web-card-title">DESIGNS</h3>
-                                <span class="web_card-content">Fully responsive websites to all devices, with interactive Ui components.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </section>
-<!--======================= CONTACT ME ==========================-->  
-        <!-- <section class="contact section" id="contact">
-            <!-- <h2 class="section_title">Contact Me</h2>
-            <span class="section_subtitle">Get in touch</span> --
-
-            <div class="skills_content skills_close">
-                <div class="contact_data">
-                    <h2 class="contact_text">
-                        Planning for your next project? Let's work together!
-                    </h2>
-                </div>
-                <a href="./contact.html">
-                    <span class="btn_txt"><span>Hit me up!</span>
-                    </span>
-                </a>
-
-            </div>
-        </section> -->
 
 <!--======================= FOOTER ==========================-->   
         <footer class="footer">
             <div class="footer_bg">
                 <div class="footer_container container grid">
-                    <div class="footer-data">
+                    <div class="footer-data" data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">
                         <ul class="footer_links">
                             <li class="footer-t2">
                                 WORK
@@ -795,13 +776,13 @@
                     <div class="footer_content">
                         <div class="ft-container">
                             <div class="footer_text-container">
-                                <h2 class="footer_text ft1">
+                                <h2 class="footer_text ft1" data-aos="fade-down" data-aos-delay="400" data-aos-anchor-placement="bottom-bottom">
                                     Planning for your next project?
                                 </h2>
-                                <h1 class="footer_text ft2">
+                                <h1 class="footer_text ft2" data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement="bottom-bottom">
                                 LET'S WORK TOGETHER!
                                 </h1>
-                                <div class="footer-btn">
+                                <div class="footer-btn" data-aos="zoom-in" data-aos-delay="50" data-aos-anchor-placement="bottom-bottom">
                                     <a href="./contact.html" class="contact_btn-container">
                                         <span class="btn_fill"><span class="btn_txt">Hit me up!</span>
                                         </span>
@@ -814,13 +795,13 @@
                 </div>
 
 
-                <div class="hline-footer"></div>
+                <div class="hline-footer" data-aos="zoom-in" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom"></div>
                 <div class="footer-bottom">
-                    <div class="footer-credits">
+                    <div class="footer-credits" data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">
                         <p class="footer_copy">&#169;2020 Timothy. All rights reserved.</p>
                     </div>
 
-                    <div class="footer_socials">
+                    <div class="footer_socials" data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">
                         <a href="https://www.facebook.com/" target="_blank"  class="footer_icons">
                             <i class="uil uil-facebook-f"></i>
                         </a>
@@ -843,9 +824,15 @@
 </a>
 
     </main>
+
+    <!-- ANIMATE SCROLL JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- SWIPER JS -->
     <script src="./assets/JS/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script src="./assets/JS/sp-main.js"></script>
 </body>
