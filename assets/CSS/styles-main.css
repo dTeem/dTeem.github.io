@@ -1232,6 +1232,15 @@ margin-top: 0.5rem;
 
 
 /* //////////////////// FOOTER /////////////////////////// */
+/* .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    z-index: -2;
+} */
+
 
 .contact_btn-container {
 display: inline-block;
