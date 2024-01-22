@@ -90,15 +90,20 @@ a {
 }
 
 .spacer {
+    position: relative;
     aspect-ratio: 960/300;
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    isolation: isolate;
+    z-index: -1;
 }
 
 .layer-top {
-    background-image: url('/images/layered-waves-top.svg');
+    position: absolute;
+    background-image: url('/images/layered-waves-haikei.svg');
+    z-index: 1;
 }
 
 .menu-bg {
