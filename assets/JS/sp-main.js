@@ -63,8 +63,6 @@ modalCloses.forEach((modalClose) => {
 
 
 // =============== PORTFOLIO SWIPER ================ //
-
-
 const swiper = new Swiper('.swiper', {
     cssMode: true,
     // Optional parameters

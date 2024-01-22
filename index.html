@@ -150,7 +150,7 @@
 
     <!--======================= ABOUT ==========================-->  
         <section class="about section" id="about" name="about">
-            <div data-aos="fade-down">
+            <div data-aos="fade-down" data-aos-offset="300">
                 <h2 class="section_title">About Me</h2>
                 <span class="section_subtitle abt-sub">My Introduction</span>
             </div>
@@ -340,6 +340,8 @@
                 </div>
             </div>
         </section>
+
+        <div class="spacer layer-top"></div>
 
 <!--======================= SKILLS ==========================-->  
         <!------------------ SKILLS 1 ------------------->
@@ -575,7 +577,7 @@
                     </div>
                 </div>
         <!-- ---------------- SERVICES 2 ----------------- -->
-                <div class="services_content" data-aos="fade-up" data-aos-offset="400">
+                <div class="services_content" data-aos="fade-up" data-aos-offset="450">
                     <div>
                         <i class="uil uil-arrow services_icon"></i>
                         <h3 class="services_title">Frontend <br> Developer</h3>
@@ -612,7 +614,7 @@
                     </div>
                 </div>
         <!------------------ SERVICES 3 ------------------->  
-                <div class="services_content" data-aos="fade-left" data-aos-offset="400">
+                <div class="services_content" data-aos="fade-left" data-aos-offset="470">
                     <div>
                         <i class="uil uil-icons services_icon"></i>
                         <h3 class="services_title">Branding <br> Designer</h3>
@@ -832,5 +834,16 @@
     </script>
 
     <script src="./assets/JS/sp-main.js"></script>
+
+    <!-- <script>
+        gsap.from(".footer", {
+        y: -500,
+        scrollTrigger: {
+            trigger: ".footer_bg",
+            start: "bottom-bottom",
+            scrub: true,
+            },
+        });
+    </script> -->
 </body>
 </html>

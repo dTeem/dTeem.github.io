@@ -89,6 +89,18 @@ a {
     background-color: var(--primary-bg);
 }
 
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer-top {
+    background-image: url('/images/layered-waves-top.svg');
+}
+
 .menu-bg {
     z-index: 2;
     position: fixed;
@@ -281,7 +293,7 @@ a {
     transition: 0.3s;
 }
 
-/* ////////////////////////// HOME //////////////////////// */
+/* ////////////////////////// HOME //////////////////////////// */
 .home.section {
     background-color: var(--primary-bg);
     margin-bottom: 10rem;
@@ -1237,7 +1249,7 @@ margin-top: 0.5rem;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 800px;
+    height: 200px;
     z-index: -2;
 } */
 
@@ -2069,11 +2081,13 @@ color: var(--accent-2);
     .footer_container.grid {
         display: grid;
         grid-template-columns: .5fr 1fr .1fr;
+        column-gap: 6rem;
     }
 
     .footer-data {
         display: flex;
-        gap: 3rem;
+        gap: 2rem;
+        text-align: start;
     }
 
     .footer_content {
@@ -2104,6 +2118,7 @@ color: var(--accent-2);
     .footer-bottom {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
+        column-gap: 50vw;
     }
     .footer_copy {
         display: flex;
